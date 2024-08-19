@@ -14,6 +14,10 @@
 		D70B21702B90AF7F001F4FA8 /* iOSExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B216F2B90AF7F001F4FA8 /* iOSExampleUITests.swift */; };
 		D70B21722B90AF7F001F4FA8 /* iOSExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B21712B90AF7F001F4FA8 /* iOSExampleUITestsLaunchTests.swift */; };
 		D70B21802B90AFB9001F4FA8 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B217F2B90AFB9001F4FA8 /* BasicViewController.swift */; };
+		D74DA01F2C20A6E9006350C6 /* RestaurantMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74DA01E2C20A6E9006350C6 /* RestaurantMenuSwiftUIView.swift */; };
+		D74DA0212C20ADD9006350C6 /* MenuTopSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74DA0202C20ADD9006350C6 /* MenuTopSwiftUIView.swift */; };
+		D74DA0232C20C3F9006350C6 /* RestaurantSubMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74DA0222C20C3F9006350C6 /* RestaurantSubMenuSwiftUIView.swift */; };
+		D74DA0252C20C868006350C6 /* RestaurantSubMenuItemSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74DA0242C20C868006350C6 /* RestaurantSubMenuItemSwiftUIView.swift */; };
 		D77E08BF2BA0A35F0077F9ED /* RestaurantMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E08BE2BA0A35F0077F9ED /* RestaurantMenuViewController.swift */; };
 		D77E08C12BA0A36D0077F9ED /* RestaurantMenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E08C02BA0A36D0077F9ED /* RestaurantMenuInteractor.swift */; };
 		D77E08C32BA0A3750077F9ED /* RestaurantMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E08C22BA0A3750077F9ED /* RestaurantMenuPresenter.swift */; };
@@ -31,6 +35,7 @@
 		D77E08DE2BA0DFDB0077F9ED /* RestaurantSubMenuItemViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E08DD2BA0DFDB0077F9ED /* RestaurantSubMenuItemViewModeling.swift */; };
 		D77E08E02BA0E4520077F9ED /* RestaurantSubMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E08DF2BA0E4520077F9ED /* RestaurantSubMenuView.swift */; };
 		D77E08E22BA1E89D0077F9ED /* RestaurantSubMenuViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E08E12BA1E89D0077F9ED /* RestaurantSubMenuViewModeling.swift */; };
+		D7F17ACC2C4E77C800ED4069 /* RestaurantMenuSwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F17ACB2C4E77C800ED4069 /* RestaurantMenuSwiftUIViewController.swift */; };
 		D7F88A412B90FDBF003F3484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F88A402B90FDBF003F3484 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +68,10 @@
 		D70B216F2B90AF7F001F4FA8 /* iOSExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExampleUITests.swift; sourceTree = "<group>"; };
 		D70B21712B90AF7F001F4FA8 /* iOSExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D70B217F2B90AFB9001F4FA8 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		D74DA01E2C20A6E9006350C6 /* RestaurantMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuSwiftUIView.swift; sourceTree = "<group>"; };
+		D74DA0202C20ADD9006350C6 /* MenuTopSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTopSwiftUIView.swift; sourceTree = "<group>"; };
+		D74DA0222C20C3F9006350C6 /* RestaurantSubMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSubMenuSwiftUIView.swift; sourceTree = "<group>"; };
+		D74DA0242C20C868006350C6 /* RestaurantSubMenuItemSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSubMenuItemSwiftUIView.swift; sourceTree = "<group>"; };
 		D77E08BE2BA0A35F0077F9ED /* RestaurantMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuViewController.swift; sourceTree = "<group>"; };
 		D77E08C02BA0A36D0077F9ED /* RestaurantMenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuInteractor.swift; sourceTree = "<group>"; };
 		D77E08C22BA0A3750077F9ED /* RestaurantMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuPresenter.swift; sourceTree = "<group>"; };
@@ -80,6 +89,7 @@
 		D77E08DD2BA0DFDB0077F9ED /* RestaurantSubMenuItemViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSubMenuItemViewModeling.swift; sourceTree = "<group>"; };
 		D77E08DF2BA0E4520077F9ED /* RestaurantSubMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSubMenuView.swift; sourceTree = "<group>"; };
 		D77E08E12BA1E89D0077F9ED /* RestaurantSubMenuViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSubMenuViewModeling.swift; sourceTree = "<group>"; };
+		D7F17ACB2C4E77C800ED4069 /* RestaurantMenuSwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuSwiftUIViewController.swift; sourceTree = "<group>"; };
 		D7F88A402B90FDBF003F3484 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +141,7 @@
 		D70B214D2B90AF7B001F4FA8 /* iOSExample */ = {
 			isa = PBXGroup;
 			children = (
+				D74DA01D2C20A6B8006350C6 /* SwiftUI */,
 				D77E08D32BA0BC950077F9ED /* Models */,
 				D77E08BD2BA09FCE0077F9ED /* VIPPattern */,
 				D70B217E2B90AFA9001F4FA8 /* ViewControllers */,
@@ -166,6 +177,18 @@
 				D70B217F2B90AFB9001F4FA8 /* BasicViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D74DA01D2C20A6B8006350C6 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D74DA01E2C20A6E9006350C6 /* RestaurantMenuSwiftUIView.swift */,
+				D74DA0202C20ADD9006350C6 /* MenuTopSwiftUIView.swift */,
+				D74DA0222C20C3F9006350C6 /* RestaurantSubMenuSwiftUIView.swift */,
+				D74DA0242C20C868006350C6 /* RestaurantSubMenuItemSwiftUIView.swift */,
+				D7F17ACB2C4E77C800ED4069 /* RestaurantMenuSwiftUIViewController.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		D77E08BD2BA09FCE0077F9ED /* VIPPattern */ = {
@@ -343,10 +366,13 @@
 				D77E08DA2BA0DB800077F9ED /* RestauranteSubMenuItem.swift in Sources */,
 				D77E08CE2BA0A9EB0077F9ED /* MenuTopView.swift in Sources */,
 				D7F88A412B90FDBF003F3484 /* SceneDelegate.swift in Sources */,
+				D74DA0252C20C868006350C6 /* RestaurantSubMenuItemSwiftUIView.swift in Sources */,
 				D77E08CC2BA0A41D0077F9ED /* RestaurantMenuViewModeling.swift in Sources */,
 				D77E08D82BA0DB030077F9ED /* RestauranteSubMenu.swift in Sources */,
 				D77E08E22BA1E89D0077F9ED /* RestaurantSubMenuViewModeling.swift in Sources */,
+				D74DA01F2C20A6E9006350C6 /* RestaurantMenuSwiftUIView.swift in Sources */,
 				D77E08D52BA0BCF00077F9ED /* RestaurantMenuResponse.swift in Sources */,
+				D74DA0212C20ADD9006350C6 /* MenuTopSwiftUIView.swift in Sources */,
 				D77E08E02BA0E4520077F9ED /* RestaurantSubMenuView.swift in Sources */,
 				D77E08C72BA0A38F0077F9ED /* RestaurantMenuCoordinator.swift in Sources */,
 				D77E08C32BA0A3750077F9ED /* RestaurantMenuPresenter.swift in Sources */,
@@ -354,8 +380,10 @@
 				D77E08DE2BA0DFDB0077F9ED /* RestaurantSubMenuItemViewModeling.swift in Sources */,
 				D77E08D22BA0BB590077F9ED /* RestaurantMenuWorker.swift in Sources */,
 				D77E08C52BA0A3850077F9ED /* RestaurantMenuFactory.swift in Sources */,
+				D74DA0232C20C3F9006350C6 /* RestaurantSubMenuSwiftUIView.swift in Sources */,
 				D77E08D02BA0AA900077F9ED /* MenuTopViewModeling.swift in Sources */,
 				D77E08DC2BA0DD240077F9ED /* RestaurantSubMenuItemView.swift in Sources */,
+				D7F17ACC2C4E77C800ED4069 /* RestaurantMenuSwiftUIViewController.swift in Sources */,
 				D77E08C12BA0A36D0077F9ED /* RestaurantMenuInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,9 +20,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //        let rootViewController = BasicViewController()
         let rootViewController = RestaurantMenuFactory.configure()
+//        let rootViewController = RestaurantMenuSwiftUIViewController()
         let navigationController = UINavigationController(rootViewController: rootViewController)
         navigationController.setNavigationBarHidden(false, animated: false)
         navigationController.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navigationController.navigationBar.setBackgroundImage(.init(), for: .default)
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()

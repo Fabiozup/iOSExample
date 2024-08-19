@@ -26,7 +26,8 @@ class RestaurantMenuInteractor {
 extension RestaurantMenuInteractor: RestaurantMenuInteracting {
     func requestMenu() {
         worker.requestMenu { [weak self] response in
-            self?.presenter.presentMenu(response: response)
+//            self?.presenter.presentMenu(response: response)
+            self?.presenter.presentSwiftUIMenu(response: response)
         }
     }
 }

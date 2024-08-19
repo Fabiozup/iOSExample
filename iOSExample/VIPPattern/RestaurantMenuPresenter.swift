@@ -9,6 +9,7 @@ import Foundation
 
 protocol RestaurantMenuPresenting {
     func presentMenu(response: RestaurantMenuResponse)
+    func presentSwiftUIMenu(response: RestaurantMenuResponse)
 }
 
 class RestaurantMenuPresenter {
@@ -25,5 +26,9 @@ extension RestaurantMenuPresenter: RestaurantMenuPresenting {
     func presentMenu(response: RestaurantMenuResponse) {
         let viewModel = RestaurantMenuViewModel(response: response)
         viewController?.displayMenu(viewModel: viewModel)
+    }
+    
+    func presentSwiftUIMenu(response: RestaurantMenuResponse) {
+        viewController?.displaySwiftUIMenu(response: response)
     }
 }
